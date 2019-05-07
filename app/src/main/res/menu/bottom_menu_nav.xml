@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_bar_chart"/>
+
+    <item android:id="@+id/explore"
+        android:title="Explore"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_pie_chart"/>
+
+
+    <item android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_more_horizontal"/>
+
+</menu>
